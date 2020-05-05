@@ -14,9 +14,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/student' component={Student} />
-          <Route path='/teacher' component={Teacher} />
+          <Route path='/react-app/' exact component={Home} />
+          <Route path='/react-app/student' component={Student} />
+          <Route path='/react-app/teacher' component={Teacher} />
         </Switch>
       </div>
     </Router>

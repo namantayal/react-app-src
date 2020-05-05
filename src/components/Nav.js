@@ -7,13 +7,13 @@ function Nav() {
         <nav className='nav-bar'>
             <h3 className='title'>Assignment</h3>
             <ul className='nav-links'>
-                <Link className='links' to="/">
+                <Link className='links' to="/react-app/">
                     <li>Home</li>
                 </Link>
-                <Link className='links' to="/student">
+                <Link className='links' to="/react-app/student">
                     <li>Student</li>
                 </Link>
-                <Link className='links' to="/teacher">
+                <Link className='links' to="/react-app/teacher">
                     <li>Teacher</li>
                 </Link>
             </ul>
